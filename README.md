@@ -96,7 +96,7 @@ If you do not recommend any of the models, please justify your reasoning.
 
 ## Dependencies
 
-* Using Visual Studio Code or Jupyter notebooks for coding and data visualization
+* Using Jupyter notebooks for the analysis of the models. 
 
 ## Installing
 
@@ -104,12 +104,8 @@ If you do not recommend any of the models, please justify your reasoning.
 
 ## Help
 
-* Use console.log inside of your JavaScript code to see what your data looks like at each step.
-
-* Refer to the Plotly.js documentationLinks to an external site. when building the plots.
+No help required. 
 
 ## Authors
 
 Christopher Manfredi
-
-## Version History
