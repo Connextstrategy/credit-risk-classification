@@ -36,9 +36,9 @@ Use your knowledge of logistic regression to complete the following steps:
 
 2. Save the predictions for the testing data labels by using the testing feature data (X_test) and the fitted model.
 
-* Evaluate the model’s performance by doing the following:
+ * Evaluate the model’s performance by doing the following:
 
-* Generate a confusion matrix.
+ * Generate a confusion matrix.
 
 3. Print the classification report.
 
