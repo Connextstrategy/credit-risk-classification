@@ -70,7 +70,9 @@ In this section, describe the analysis you completed for the machine learning mo
 * Describe the stages of the machine learning process you went through as part of this analysis.
 * Briefly touch on any methods you used (e.g., `LogisticRegression`, or any resampling method).
 
-The purpose of this analysis was a ascertain what supervised machine learning model would be best to predict loan classification for credit card users. The financial information is based on 
+The purpose of this analysis was a ascertain what supervised machine learning model would be best to predict loan classification for credit card users. The financial information is based on the CSV file combined with a splitting of data (around whether it's a healthy (0)versus high risk (1) loan. It was tested after that. Variables outside of the type of loan include loan interest rate, borrower income, debt to income ratio, 
+
+The model attempted 
 
 ### Results
 
