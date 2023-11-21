@@ -95,7 +95,7 @@ The random sampler logistical regression model data tested with 99.38% accuracy 
 
 ![Screenshot 2023-11-20 205643](https://github.com/Connextstrategy/credit-risk-classification/assets/18508699/2fa4740b-9138-41d8-bc14-8e0d03203fd7)
 
-This confusion matrix suggests that the model is performing well, especially in terms of correctly identifying negative cases and not missing many positive cases.
+This confusion matrix has a higher recall since it has fewer false negatives. This is crucial in scenarios where missing a positive instance can be critical.
 
 ### Summary
 
