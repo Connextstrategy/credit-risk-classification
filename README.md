@@ -16,15 +16,17 @@ The instructions for this Challenge are divided into the following subsections:
 
 3. Write a Credit Risk Analysis Report
 
-## Prepare the Data
+## Split the Data into Training and Testing Sets
 
-* Use the StandardScaler() module from scikit-learn to normalize the data from the CSV file.
+Open the starter code notebook and use it to complete the following steps:
 
-* Create a DataFrame with the scaled data and set the "coin_id" index from the original DataFrame as the index for the new DataFrame.
+1. Read the lending_data.csv data from the Resources folder into a Pandas DataFrame.
 
-- The first five rows of the scaled DataFrame should appear as follows:
+2. Create the labels set (y) from the “loan_status” column, and then create the features (X) DataFrame from the remaining columns.
 
-![Screenshot 2023-11-13 143742](https://github.com/Connextstrategy/CryptoClustering/assets/18508699/e2ee7df3-1d4a-4561-a19a-6dc1627fd9c5)
+![Screenshot 2023-11-20 185139](https://github.com/Connextstrategy/credit-risk-classification/assets/18508699/9d3c40eb-fafc-42cb-ae16-e843327365a1)
+
+3. Split the data into training and testing datasets by using train_test_split.
 
 ## Find the Best Value for k Using the Original Scaled DataFrame
 
