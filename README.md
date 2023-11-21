@@ -72,19 +72,38 @@ In this section, describe the analysis you completed for the machine learning mo
 
 The purpose of this analysis was a ascertain what supervised machine learning model would be best to predict loan classification for credit card users. The financial information is based on the CSV file combined with a splitting of data (around whether it's a healthy (0)versus high risk (1) loan. It was tested after that. Variables outside of the type of loan include loan interest rate, borrower income, debt to income ratio, 
 
-The model attempted 
+The model attempted see the difference between the healthy versus high risk loans. Two separate types of supervised machine learning models were deployed to include: 
+
+* Logistical regression: Used when the outcome is binary; Simple, scalable, and has clear metrics
+* Logistical regression with Random Sampler: Used to randomly select a subset of data from a larger dataset; Helps prevent over fitting
+
+The random sampler logistical regression model data tested with 99.184% accuracy with the following confusion matrix below: 
+
+![Screenshot 2023-11-20 205643](https://github.com/Connextstrategy/credit-risk-classification/assets/18508699/2fa4740b-9138-41d8-bc14-8e0d03203fd7)
+
+This confusion matrix suggests that the model is performing well, especially in terms of correctly identifying negative cases and not missing many positive cases.
+
 
 ### Results
 
 Using bulleted lists, describe the balanced accuracy scores and the precision and recall scores of all machine learning models.
 
-* Machine Learning Model 1:
-  * Description of Model 1 Accuracy, Precision, and Recall scores.
+* Machine Learning Model 1: Logistical Regression  
+
+The original logistical regression model data tested with 99.184% accuracy with the following confusion matrix below: 
+
+![Screenshot 2023-11-20 205643](https://github.com/Connextstrategy/credit-risk-classification/assets/18508699/2fa4740b-9138-41d8-bc14-8e0d03203fd7)
+
+This confusion matrix suggests that the model is performing well, especially in terms of correctly identifying negative cases and not missing many positive cases.
 
 
+* Machine Learning Model 2: Logistical Regression with Random Sampler
+  
+The random sampler logistical regression model data tested with 99.38% accuracy with the following confusion matrix below: 
 
-* Machine Learning Model 2:
-  * Description of Model 2 Accuracy, Precision, and Recall scores.
+![Screenshot 2023-11-20 205643](https://github.com/Connextstrategy/credit-risk-classification/assets/18508699/2fa4740b-9138-41d8-bc14-8e0d03203fd7)
+
+This confusion matrix suggests that the model is performing well, especially in terms of correctly identifying negative cases and not missing many positive cases.
 
 ### Summary
 
