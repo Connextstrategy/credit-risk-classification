@@ -81,7 +81,7 @@ The model attempted see the difference between the healthy versus high risk loan
 
 Using bulleted lists, describe the balanced accuracy scores and the precision and recall scores of all machine learning models.
 
-* Machine Learning Model 1: Logistical Regression  
+  * Machine Learning Model 1: Logistical Regression  
 
 The original logistical regression model data tested with 99.184% accuracy with the following confusion matrix below: 
 
@@ -89,13 +89,23 @@ The original logistical regression model data tested with 99.184% accuracy with 
 
 This confusion matrix has a slightly higher precision due to fewer false positives, meaning it is more accurate when it predicts a positive instance.
 
-* Machine Learning Model 2: Logistical Regression with Random Sampler
+Testing report shows a high level of accuracy and an excellent balance between precision and recall for both classes, particularly excelling in class 0 predictions. The decision to deploy or further refine this model would depend on the specific requirements of the task, especially considering the slightly lower (but still strong) performance on the minority class (class 1).
+
+![Screenshot 2023-11-20 211529](https://github.com/Connextstrategy/credit-risk-classification/assets/18508699/351b9a7e-c8bf-4153-b872-5b69ce9e02fd)
+
+
+  * Machine Learning Model 2: Logistical Regression with Random Sampler
   
 The random sampler logistical regression model data tested with 99.38% accuracy with the following confusion matrix below: 
 
 ![Screenshot 2023-11-20 205643](https://github.com/Connextstrategy/credit-risk-classification/assets/18508699/2fa4740b-9138-41d8-bc14-8e0d03203fd7)
 
-This confusion matrix has a higher recall since it has fewer false negatives. This is crucial in scenarios where missing a positive instance can be critical.
+This confusion matrix has a higher recall since it has fewer false negatives. This is crucial in scenarios where missing a positive instance can be critical. 
+
+Testing report shows that the model is almost perfect at predicting class 0, with exceptional precision, recall, and F1-score. The model also has very high recall but slightly lower precision. This indicates that the model is very good at identifying class 1 instances, but when it predicts something as class 1, there's a 16% chance it might be wrong.
+
+![Screenshot 2023-11-20 212214](https://github.com/Connextstrategy/credit-risk-classification/assets/18508699/e73837c7-9e6f-43c4-8c48-6ffef78b1e23)
+
 
 ### Summary
 
@@ -103,9 +113,8 @@ Summarize the results of the machine learning models, and include a recommendati
 * Which one seems to perform best? How do you know it performs best?
 * Does performance depend on the problem we are trying to solve? (For example, is it more important to predict the `1`'s, or predict the `0`'s? )
 
-The random sampler logistical regression model performed better. 
+The random sampler logistical regression model performed better, but the issues with the prediction of the high risk is an issue when it comes to choosing this model. That being said, if you had to choose which mdoel to use, the choice should be the model with random sampler and more balance between classes. If slightly higher precision in the positive class is more important (like in medical diagnosis), then the original logistical model might be the better choice.
  
-
 
 ## Dependencies
 
