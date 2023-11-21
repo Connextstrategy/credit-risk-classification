@@ -1,4 +1,4 @@
-# Python Rutgers Bootcamp Challenge - CryptoClustering
+# Python Rutgers Bootcamp Challenge - Credit Risk Classification
 
 This activity is broken down into Python code which helps us build a model that can identify the creditworthiness of borrowers using multiple machine learning techiques like random sampler and logistical regression. 
 
