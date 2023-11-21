@@ -28,16 +28,21 @@ Open the starter code notebook and use it to complete the following steps:
 
 3. Split the data into training and testing datasets by using train_test_split.
 
-## Find the Best Value for k Using the Original Scaled DataFrame
+## Create a Logistic Regression Model with the Original Data
 
-* Use the elbow method to find the best value for k using the following steps:
-  
-  * Create a list with the number of k values from 1 to 11.
-  * Create an empty list to store the inertia values.
-  * Create a for loop to compute the inertia with each possible value of k.
-  * Create a dictionary with the data to plot the elbow curve.
-  * Plot a line chart with all the inertia values computed with the different values of k to visually identify the optimal value for k.
-  * Answer the following question in your notebook: What is the best value for k?
+Use your knowledge of logistic regression to complete the following steps:
+
+1. Fit a logistic regression model by using the training data (X_train and y_train).
+
+2. Save the predictions for the testing data labels by using the testing feature data (X_test) and the fitted model.
+
+* Evaluate the model’s performance by doing the following:
+
+* Generate a confusion matrix.
+
+3. Print the classification report.
+
+4. Answer the following question: How well does the logistic regression model predict both the 0 (healthy loan) and 1 (high-risk loan) labels?
  
  ## Cluster Cryptocurrencies with K-means Using the Original Scaled Data
 
