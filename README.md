@@ -44,66 +44,23 @@ Use your knowledge of logistic regression to complete the following steps:
 
 4. Answer the following question: How well does the logistic regression model predict both the 0 (healthy loan) and 1 (high-risk loan) labels?
  
- ## Cluster Cryptocurrencies with K-means Using the Original Scaled Data
+ ## Write a Credit Risk Analysis Report
 
+Write a brief report that includes a summary and analysis of the performance of the machine learning models that you used in this homework. You should write this report as the README.md file included in your GitHub repository.
 
-* Use the following steps to cluster the cryptocurrencies for the best value for k on the original scaled data:
-  
-  * Initialize the K-means model with the best value for k.
-  * Fit the K-means model using the original scaled DataFrame.
-  * Predict the clusters to group the cryptocurrencies using the original scaled DataFrame.
-  * Create a copy of the original data and add a new column with the predicted clusters.
-  * Create a scatter plot using hvPlot as follows:
-    
-    *  Set the x-axis as "PC1" and the y-axis as "PC2".
-    *  Color the graph points with the labels found using K-means.
-    *  Add the "coin_id" column in the hover_cols parameter to identify the cryptocurrency represented by each data point.
+Structure your report by using the report template that Starter_Code.zip includes, ensuring that it contains the following:
+
+1. An overview of the analysis: Explain the purpose of this analysis.
+
+2. The results: Using a bulleted list, describe the accuracy score, the precision score, and recall score of the machine learning model.
+
+3. A summary: Summarize the results from the machine learning model. Include your justification for recommending the model for use by the company. If you don’t recommend the model, justify your reasoning.
+
+ ## Final & Complete Written Report 
+
+xxxxxx
  
- ## Optimize Clusters with Principal Component Analysis
- 
-* Using the original scaled DataFrame, perform a PCA and reduce the features to three principal components.
-  
-* Retrieve the explained variance to determine how much information can be attributed to each principal component and then answer the following question in your notebook:
-  
-  * What is the total explained variance of the three principal components?
-    
-* Create a new DataFrame with the PCA data and set the "coin_id" index from the original DataFrame as the index for the new DataFrame:
-  
-  * The first five rows of the PCA DataFrame should appear as follows:
 
-![Screenshot 2023-11-13 145133](https://github.com/Connextstrategy/CryptoClustering/assets/18508699/508359d4-23df-4b8b-b5c8-1fa88a48147c)
-
- ## Find the Best Value for k Using the PCA Data
-
- Use the elbow method on the PCA data to find the best value for k using the following steps:
- 
-   * Create a list with the number of k-values from 1 to 11.
-   * Create an empty list to store the inertia values.
-   * Create a for loop to compute the inertia with each possible value of k.
-   * Create a dictionary with the data to plot the Elbow curve.
-   * Plot a line chart with all the inertia values computed with the different values of k to visually identify the optimal value for k.
-     
-   * Answer the following question in your notebook:
-       * What is the best value for k when using the PCA data?
-       * Does it differ from the best k value found using the original data?
-
-## Cluster Cryptocurrencies with K-means Using the PCA Data
-
-Use the following steps to cluster the cryptocurrencies for the best value for k on the PCA data:
-
-   * Initialize the K-means model with the best value for k.
-   * Fit the K-means model using the PCA data.
-   * Predict the clusters to group the cryptocurrencies using the PCA data.
-   * Create a copy of the DataFrame with the PCA data and add a new column to store the predicted clusters.
-   * Create a scatter plot using hvPlot as follows:
-     
-       * Set the x-axis as "price_change_percentage_24h" and the y-axis as "price_change_percentage_7d".
-       * Color the graph points with the labels found using K-means.
-       * Add the "coin_id" column in the hover_cols parameter to identify the cryptocurrency represented by each data point.
-         
-   * Answer the following question:
-     
-       * What is the impact of using fewer features to cluster the data using K-Means?
 
 ### Dependencies
 
