@@ -62,11 +62,11 @@ xxxxxx
  
 
 
-### Dependencies
+## Dependencies
 
 * Using Visual Studio Code or Jupyter notebooks for coding and data visualization
 
-### Installing
+## Installing
 
 * No modifications needed to be made to files/folders
 
