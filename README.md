@@ -58,9 +58,9 @@ Structure your report by using the report template that Starter_Code.zip include
 
  ## Final & Complete Written Report 
 
-# Module 12 Report Template
+### Module 12 Report Template
 
-# Overview of the Analysis
+### Overview of the Analysis
 
 In this section, describe the analysis you completed for the machine learning models used in this Challenge. This might include:
 
@@ -72,7 +72,7 @@ In this section, describe the analysis you completed for the machine learning mo
 
 The purpose of this analysis was a ascertain what supervised machine learning model would be best to predict loan classification for credit card users. The financial information is based on 
 
-# Results
+### Results
 
 Using bulleted lists, describe the balanced accuracy scores and the precision and recall scores of all machine learning models.
 
@@ -84,7 +84,7 @@ Using bulleted lists, describe the balanced accuracy scores and the precision an
 * Machine Learning Model 2:
   * Description of Model 2 Accuracy, Precision, and Recall scores.
 
-# Summary
+### Summary
 
 Summarize the results of the machine learning models, and include a recommendation on the model to use, if any. For example:
 * Which one seems to perform best? How do you know it performs best?
