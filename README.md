@@ -77,13 +77,6 @@ The model attempted see the difference between the healthy versus high risk loan
 * Logistical regression: Used when the outcome is binary; Simple, scalable, and has clear metrics
 * Logistical regression with Random Sampler: Used to randomly select a subset of data from a larger dataset; Helps prevent over fitting
 
-The random sampler logistical regression model data tested with 99.184% accuracy with the following confusion matrix below: 
-
-![Screenshot 2023-11-20 205643](https://github.com/Connextstrategy/credit-risk-classification/assets/18508699/2fa4740b-9138-41d8-bc14-8e0d03203fd7)
-
-This confusion matrix suggests that the model is performing well, especially in terms of correctly identifying negative cases and not missing many positive cases.
-
-
 ### Results
 
 Using bulleted lists, describe the balanced accuracy scores and the precision and recall scores of all machine learning models.
@@ -92,10 +85,9 @@ Using bulleted lists, describe the balanced accuracy scores and the precision an
 
 The original logistical regression model data tested with 99.184% accuracy with the following confusion matrix below: 
 
-![Screenshot 2023-11-20 205643](https://github.com/Connextstrategy/credit-risk-classification/assets/18508699/2fa4740b-9138-41d8-bc14-8e0d03203fd7)
+![Screenshot 2023-11-20 210555](https://github.com/Connextstrategy/credit-risk-classification/assets/18508699/e8abbca7-5768-48fb-8eb1-f5c96406d31c)
 
-This confusion matrix suggests that the model is performing well, especially in terms of correctly identifying negative cases and not missing many positive cases.
-
+This confusion matrix has a slightly higher precision due to fewer false positives, meaning it is more accurate when it predicts a positive instance.
 
 * Machine Learning Model 2: Logistical Regression with Random Sampler
   
@@ -111,7 +103,7 @@ Summarize the results of the machine learning models, and include a recommendati
 * Which one seems to perform best? How do you know it performs best?
 * Does performance depend on the problem we are trying to solve? (For example, is it more important to predict the `1`'s, or predict the `0`'s? )
 
-If you do not recommend any of the models, please justify your reasoning.
+The random sampler logistical regression model performed better. 
  
 
 
