@@ -1,6 +1,6 @@
 # Python Rutgers Bootcamp Challenge - CryptoClustering
 
-This activity is broken down into Python code which uncovers was of predicting group clusters using unsupervised machine learning. 
+This activity is broken down into Python code which helps us build a model that can identify the creditworthiness of borrowers using multiple machine learning techiques like random sampler and logistical regression. 
 
 ## Description
 
